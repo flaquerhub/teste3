@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título Persuasivo do Produto | Oferta Especial</title>
+    <meta name="description" content="Descrição persuasiva do seu produto com benefício principal para SEO">
+    
+    <!-- Preload de recursos críticos -->
+    <link rel="preload" href="images/hero.webp" as="image">
+    <link rel="preload" href="styles.css" as="style">
+    
+    <!-- CSS crítico inline (apenas o necessário para a primeira visualização) -->
+    <style>
+        /* CSS crítico para a primeira dobra */
+        body { margin: 0; padding: 0; font-family: 'Segoe UI', Roboto, -apple-system, sans-serif; line-height: 1.6; color: #333; }
+        .hero { text-align: center; padding: 2rem 1rem; }
+        .headline { font-size: 2.5rem; line-height: 1.2; margin-bottom: 1rem; }
+        .cta-button { display: inline-block; background-color: #FF6B35; color: white; font-weight: bold; padding: 15px 30px; border-radius: 5px; text-decoration: none; font-size: 1.2rem; transition: all 0.3s; }
+        .cta-button:hover { background-color: #E64A19; transform: scale(1.05); }
+        @media (max-width: 768px) { .headline { font-size: 1.8rem; } }
+    </style>
+    
+    <!-- CSS completo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ATENÇÃO: Captura de atenção imediata -->
+    <header class="hero" id="top">
+        <div class="container">
+            <img src="images/logo.webp" alt="Logo da Empresa" class="logo" width="150" height="50">
+            <h1 class="headline">Título Principal Focado no Problema ou Resultado</h1>
+            <p class="subheadline">Subtítulo que estabelece credibilidade e valor da oferta</p>
+            <a href="#video" class="cta-button primary">Assista o Vídeo</a>
+        </div>
+    </header>
+
+    <!-- INTERESSE: Apresentação do problema e solução -->
+    <section class="problem-solution">
+        <div class="container">
+            <div class="problem">
+                <h2>O Problema que Você Enfrenta</h2>
+                <p>Descrição empática do problema ou dor do cliente ideal. Este parágrafo deve fazer o leitor pensar "é exatamente isso que estou sentindo".</p>
+            </div>
+            
+            <div class="solution">
+                <h2>A Solução que Transformará Sua Realidade</h2>
+                <p>Apresentação clara da solução que seu produto oferece, focando em como resolve o problema de forma única e eficaz.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vídeo de Vendas (VSL) -->
+    <section class="video-section" id="video">
+        <div class="container">
+            <h2>Assista Este Vídeo Para Descobrir Como</h2>
+            <div class="video-container">
+                <video controls poster="images/video-thumbnail.webp" preload="none">
+                    <source src="videos/sales-video.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos HTML5.
+                </video>
+            </div>
+            <a href="#oferta" class="cta-button scroll-to">Quero Garantir Agora</a>
+        </div>
+    </section>
+
+    <!-- DESEJO: Benefícios e prova social -->
+    <section class="benefits">
+        <div class="container">
+            <h2>Benefícios Que Você Vai Obter</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <img src="images/benefits/benefit1.webp" alt="Benefício 1" width="80" height="80">
+                    <h3>Benefício Principal</h3>
+                    <p>Descrição detalhada do benefício principal, focando no resultado para o cliente.</p>
+                </div>
+                <div class="benefit-card">
+                    <img src="images/benefits/benefit2.webp" alt="Benefício 2" width="80" height="80">
+                    <h3>Segundo Benefício</h3>
+                    <p>Descrição detalhada do segundo benefício, focando no resultado para o cliente.</p>
+                </div>
+                <div class="benefit-card">
+                    <img src="images/benefits/benefit3.webp" alt="Benefício 3" width="80" height="80">
+                    <h3>Terceiro Benefício</h3>
+                    <p>Descrição detalhada do terceiro benefício, focando no resultado para o cliente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>O Que Nossos Clientes Dizem</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="images/testimonials/person1.webp" alt="Cliente 1" class="testimonial-image" width="100" height="100">
+                    <p class="testimonial-text">"Depoimento real e específico sobre resultados obtidos com o produto, incluindo números e detalhes que demonstram credibilidade."</p>
+                    <p class="testimonial-name">Nome Completo</p>
+                    <p class="testimonial-info">Informação adicional relevante</p>
+                </div>
+                <div class="testimonial-card">
+                    <img src="images/testimonials/person2.webp" alt="Cliente 2" class="testimonial-image" width="100" height="100">
+                    <p class="testimonial-text">"Segundo depoimento abordando outro aspecto do produto ou serviço, demonstrando versatilidade e diferentes casos de uso."</p>
+                    <p class="testimonial-name">Nome Completo</p>
+                    <p class="testimonial-info">Informação adicional relevante</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AÇÃO: Oferta e chamada para ação -->
+    <section class="offer-section" id="oferta">
+        <div class="container">
+            <h2>Oferta Especial e Limitada</h2>
+            <div class="price-box">
+                <div class="price-header">
+                    <p class="original-price">De <span>R$ 997</span></p>
+                    <p class="current-price">Por apenas <span>R$ 497</span></p>
+                    <p class="price-info">ou 12x de R$ 47</p>
+                </div>
+                
+                <div class="guarantee">
+                    <img src="images/guarantee-seal.webp" alt="Selo de garantia" width="120" height="120">
+                    <p>Garantia de 30 dias. Experimente sem riscos!</p>
+                </div>
+                
+                <div class="countdown" id="countdown">
+                    <p>Esta oferta expira em:</p>
+                    <div class="timer">
+                        <div class="time-block">
+                            <span id="hours">24</span>
+                            <span class="time-label">Horas</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="minutes">00</span>
+                            <span class="time-label">Minutos</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="seconds">00</span>
+                            <span class="time-label">Segundos</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="https://checkout.sua-pagina.com" class="cta-button primary large">QUERO GARANTIR AGORA</a>
+                
+                <div class="payment-methods">
+                    <p>Formas de pagamento aceitas:</p>
+                    <img src="images/payment-methods.webp" alt="Métodos de pagamento" width="300" height="50">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sua Empresa. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="termos.html">Termos de Uso</a> | 
+                <a href="privacidade.html">Política de Privacidade</a>
+            </div>
+            <a href="#top" class="back-to-top scroll-to">Voltar ao topo</a>
+        </div>
+    </footer>
+
+    <!-- Scripts JS mínimos para funcionalidade -->
+    <script src="script.js" defer></script>
+</body>
+</html>
